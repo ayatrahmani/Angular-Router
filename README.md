@@ -1,8 +1,8 @@
 # Angular-Router
-#ng generate module app-routing --flat --module=app
+> ng generate module app-routing --flat --module=app
 
 
-
+```
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
@@ -119,4 +119,4 @@ const routes: Routes = [
   exports: [RouterModule],
   declarations: []
 })
-export class AppRoutingModule { }
+export class AppRoutingModule { } ```
